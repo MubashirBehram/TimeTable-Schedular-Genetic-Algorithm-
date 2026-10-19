@@ -1,0 +1,40 @@
+
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Java build output
+bin/
+out/
+target/
+build/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+.nbproject/private/
+nbproject/private/
+.settings/
+.project
+.classpath
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+application-local.properties
